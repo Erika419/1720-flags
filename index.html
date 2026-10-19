@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1720-Presidents</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!--Open Graph-->
+<meta property="og:title" content="1720-presidents" />
+<meta property="og:description" content="presidents" />
+<meta property="og:image" content="https://erika419.github.io/1720-presidents/images/opengraph.jpg" />
+<meta property="og:url" content="https://erika419.github.io/1720-presidents/" />
+<meta property="og:logo" content="https://erika419.github.io/1720-presidents/images/favicon.svg" />
+<meta property="og:type" content="website" />
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Presidents">
+<link rel="manifest" href="images/site.webmanifest">
+
+    <!--SCRIPTS--->
+    
+    <script src="scripts/year.js" defer> </script>
+    <script src="scripts/navigation.js" defer> </script>
+     <script src="scripts/scripts.js" defer> </script>
+     <script src="scripts/presidents.js" type="module"> </script>
+    
+</head>
+<body>
+    <header>
+        <img src="images/favicon.svg" alt="site logo" width="16" height="16">
+        <span> 1720-Presidents</span>
+        <button id="hamburger" class="hamburger" aria-label="nav link button"></button>
+    </header> 
+
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <a href="#"> Justices </a> 
+                </li>
+
+                <li>
+                    <a class="active" href="#"> Presidents</a>
+                </li>
+                    
+                <li>
+                    <a href="#"> Congress</a>
+                </li>
+
+                <li>
+                    <a href="#"> Senate</a>
+                </li>
+            </ul>
+        </nav>
+
+                <main>
+
+                <div class="partyNav">
+                    <button id="btn-all">All</button>
+                    <button id="btn-unaffiliated">Unaffiliated</button>
+                    <button id="btn-democratic-republican">Democratic-Republican</button>
+                    <button id="btn-democratic"> Democratic</button>
+                    <button id="btn-whig"> Whig</button>
+                    <button id="btn-federalist"> Federalist</button>
+                    <button id="btn-republican"> Republican</button>
+                    
+                </div>
+                <div id="showPresidents" class="showPresidents"></div>
+                
+
+                
+                </form>
+        </main>
+
+
+      
+
+        <footer>
+        <section class="social" id = assign>
+            <a href="https://www.facebook.com/paul.cheney.1422" target="_blank"><img src="images/icons8-facebook.svg" alt="facebook" width="16" height="16"> </a>
+            <a href="https://www.youtube.com/PaulChenney" target="_blank"><img src="images/github-142-svgrepo-com.svg" alt="github" width="16" height="16"> </a>
+            <a href="https://www.linkedin.com/in/pchenney" target="_blank"><img src="images/linkedin-svgrepo-com.svg" alt="linkedin" width="16" height="16"> </a>
+            <a href="https://www.youtube.com/@PaulChenney66" target="_blank"><img src="images/youtube-168-svgrepo-com.svg" alt="youtube" width="16" height="16"> </a>
+        </section>
+
+        
+        <p>&copy; <span id="currentyear"></span> &bull; Erika Costecalde &bull; DWDD1720</p>
+        
+    </footer>
+</body>
+</html>
