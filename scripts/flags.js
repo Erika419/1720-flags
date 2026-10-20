@@ -1,4 +1,4 @@
-const showFlags = document.querySelector("#Showflags");
+const showFlags = document.querySelector("#showflags");
 
 //Build an asyncroncious function to grab the datafrom an external site
 async function getData(url){
