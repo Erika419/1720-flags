@@ -37,15 +37,35 @@
      <script src="scripts/scripts.js" defer> </script>
      <script src="scripts/flags.js" defer> </script>
      <script src="scripts/view.js" defer> </script>
-
-    
 </head>
+
+
 <body>
     <header>
         <img src="images/favicon.svg" alt="site logo" width="16" height="16">
         <span> 1720-Flags</span>
         <button id="hamburger" class="hamburger" aria-label="nav link button"></button>
     </header> 
+
+            <nav id="navbar">
+            <ul>
+                <li>
+                    <a href="#"> Full Name </a> 
+                </li>
+
+                <li>
+                    <a class="active" href="#"> Flags</a>
+                </li>
+                    
+                <li>
+                    <a href="#"> Code</a>
+                </li>
+
+                <li>
+                    <a href="#"> Currency</a>
+                </li>
+            </ul>
+        </nav>
 
         <main>
             <h1>Flags</h1>
@@ -55,9 +75,6 @@
             </div>
     
             <div id="showFlags" class="list"> </div>
-
-
-
         </main>
 
 
