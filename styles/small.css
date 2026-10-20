@@ -230,11 +230,13 @@ nav li a.active {
 }
 /**Styles both buttons **/
 .btn-layouts button{
+    display:block;
+    margin:auto;
     border:none;
-    border-radius: 10px;
+    border-radius: 1rem;
     width: 50px;
     height: 50px;
-    background-color: #fffefe;
+    background-color: rgba(248, 248, 249, 1.0);
         &:hover{
         background-color: var(--color-mygrey-30);
         box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -244,6 +246,7 @@ nav li a.active {
 .btn-layouts img{
     width:20px;
     height:20px;
+    border-radius: 1rem;
 }
 /**Styles the wayfinding **/
 .btn-layouts .show{
