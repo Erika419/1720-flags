@@ -11,7 +11,7 @@ async function getData(url){
     
     catch (error) {
         
-        showFlags.innerHTML = error.message; 
+        showFlags.innerText = error.message; 
     }
 }
 
