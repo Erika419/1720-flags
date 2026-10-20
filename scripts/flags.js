@@ -12,9 +12,9 @@ async function getData(url){
 }
 
 //Call the function above on page load
-getData("https://api.restcountries.com/countries/v5?limit=100&api-key=rc_live_demo");
+getData("https://api.restcountries.com/countries/v5?limit=100");
 
 //Loop through all the countries and display the flags on the page
-function dipsplayFlags(countries){
+function displayFlags(countries){
     console.log(countries);
 }
