@@ -220,12 +220,13 @@ nav li a.active {
 /**Styles the Flag area LIST/GRID Layouts **/
 /**Styles the parent division **/
 .btn-layouts{
-    display:block;
-    margin:auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     text-align:center;
     align-items: center;
     border-radius: 20px;
-    width: 600px;
+    width: 60px;
     height: 30px;
     border: 1px solid black;
 }
