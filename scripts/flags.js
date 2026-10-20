@@ -16,7 +16,7 @@ async function getData(url){
 }
 
 //Call the function above on page load
-getData("https://cfountries.dev/countries?fields=name,capital,flags");
+getData("https://countries.dev/countries?fields=name,capital,flags");
 
 //Loop through all the countries and display the flags on the page
 function displayFlags(countries){
@@ -28,7 +28,7 @@ function displayFlags(countries){
         <h2> ${item.name} </h2>
         <img src="${item.flags.svg}" alt ="${item.flags.alt}">
         <p>
-        Captial: ${item.capital}
+        Capital: ${item.capital}
         </p>
         `
         showFlags.appendChild(card);

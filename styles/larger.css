@@ -43,8 +43,8 @@
 
 /**Flag area as a LIST layout**/
 .list section{
-    margin-bottom: 10px;
     grid-template-columns: 100px 1fr 1fr;
+    gap:10px;
     grid-template-areas: 
     "flag name capital"
 }
@@ -61,7 +61,7 @@
 }
 
 .list p{
-    grid-area: lang;
+    grid-area: capital;
     margin:0;
 }
 
