@@ -178,7 +178,7 @@ nav li a.active {
         font-weight: 400;
     }
 
-/**Flag area layout**/
+/**Flag area as a GRID layout**/
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -190,6 +190,33 @@ nav li a.active {
     width:100%;
     height: auto;
 }
+
+/**Flag area as a LIST layout**/
+.list section{
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 10px;
+    grid-template-areas: 
+    "flag name"
+    "flag capital"
+}
+
+.list img{
+    grid-area: flag;
+    width:100%;
+    height: auto;   
+}
+
+.list h2{
+    grid-area: name;
+    margin: 0;
+}
+
+.list p{
+    grid-area: lang;
+    margin:0;
+}
+
 
  /**Display Styles tag**/
 .display h3{
