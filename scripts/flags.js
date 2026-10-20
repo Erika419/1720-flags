@@ -1,4 +1,4 @@
-const showFlags = document.querySelector("#showflags");
+const showFlags = document.querySelector("#showFlags");
 
 //Build an asyncroncious function to grab the datafrom an external site
 async function getData(url){
@@ -26,7 +26,7 @@ function displayFlags(countries){
         const card = document.createElement("section")
         card.innerHTML= `
         <h2> ${item.name} </h2>
-        <img src="${item.flags}" alt ="${item.flags.alt}">
+        <img src="${item.flags.svg}" alt ="${item.flags.alt}">
         <p>
         Captial: ${item.capital}
         </p>
