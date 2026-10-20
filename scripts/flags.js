@@ -12,7 +12,7 @@ async function getData(url){
 }
 
 //Call the function above on page load
-getData("https://api.restcountries.com/countries/v5?limit=100");
+getData("https://countries.dev/all?fields=flags,langauges,name");
 
 //Loop through all the countries and display the flags on the page
 function displayFlags(countries){
