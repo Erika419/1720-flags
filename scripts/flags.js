@@ -5,9 +5,10 @@ async function getData(url){
     try{
         const response = await fetch(url);
         console.log(response);
+        displayFlags(await response.json());
 
     } catch (error) {
-
+        showFlags.innerText = error.message;
     }
 }
 
