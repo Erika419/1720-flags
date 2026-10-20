@@ -16,9 +16,17 @@ async function getData(url){
 }
 
 //Call the function above on page load
-getData("https://dountries.dev/countries?fields=name,capital,flag");
+getData("https://countries.dev/countries?fields=name,capital,flag");
 
 //Loop through all the countries and display the flags on the page
 function displayFlags(countries){
     console.log(countries);
+    countries.forEach(item =>{
+        console.log(item);
+        const card = document.createElement("section")
+        card.innerHTML= `
+        <h2> ${item.name} </h2>
+        `
+        showFlags.appendChild(card);
+    })
 }
