@@ -220,12 +220,13 @@ nav li a.active {
 /**Styles the Flag area LIST/GRID Layouts **/
 /**Styles the parent division **/
 .btn-layouts{
-    display: flex;
-    justify-content: center; 
+    display:block;
+    margin:auto;
+    text-align:center;
     align-items: center;
     border-radius: 20px;
-    width: 100px;
-    height: 60px;
+    width: 600px;
+    height: 30px;
     border: 1px solid black;
 }
 /**Styles both buttons **/
@@ -234,9 +235,9 @@ nav li a.active {
     margin:auto;
     border:none;
     border-radius: 1rem;
-    width: 50px;
-    height: 50px;
-    background-color: rgba(248, 248, 249, 1.0);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 1.0);
         &:hover{
         background-color: var(--color-mygrey-30);
         box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -244,9 +245,8 @@ nav li a.active {
 }
 /**Styles the grid/list svg image **/
 .btn-layouts img{
-    width:20px;
-    height:20px;
-    border-radius: 1rem;
+    width:30px;
+    height:30px;
 }
 /**Styles the wayfinding **/
 .btn-layouts .show{
