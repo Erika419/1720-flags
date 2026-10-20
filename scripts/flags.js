@@ -16,7 +16,7 @@ async function getData(url){
 }
 
 //Call the function above on page load
-getData("https://countries.dev/countries?fields=name,capital,flag");
+getData("https://countries.dev/countries?fields=name,capital,flags");
 
 //Loop through all the countries and display the flags on the page
 function displayFlags(countries){
@@ -26,6 +26,10 @@ function displayFlags(countries){
         const card = document.createElement("section")
         card.innerHTML= `
         <h2> ${item.name} </h2>
+        <img src="${item.flags}" alt ="${item.flags.alt}">
+        <p>
+        Captial: ${item.capital}
+        </p>
         `
         showFlags.appendChild(card);
     })
