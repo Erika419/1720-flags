@@ -223,7 +223,7 @@ nav li a.active {
     display: flex;
     justify-content: center; 
     align-items: center;
-    border-radius: 1rem;
+    border-radius: 10px;
     padding: 1rem;
     margin: 2rem 0;
     border: 1px solid black;
@@ -231,9 +231,9 @@ nav li a.active {
 /**Styles both buttons **/
 .btn-layouts button{
     border:none;
-    padding: 0.5rem;
-    width: 100px;
-    height: 50px;
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
     background-color: #fffefe;
 }
 /**Styles the grid/list svg image **/
