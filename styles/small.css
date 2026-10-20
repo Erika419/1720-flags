@@ -220,25 +220,24 @@ nav li a.active {
 /**Styles the Flag area LIST/GRID Layouts **/
 /**Styles the parent division **/
 .btn-layouts{
-    display:block;
+      display: flex;
+    justify-content: center; 
+    align-items: center;
     border: 1px solid black;
-    width: 300px;
-    height: 200px;
+    width: 100px;
+    height: 50px;
     border-radius: 10px
 }
-
 /**Styles both buttons **/
 .btn-layouts button{
     border:none;
     padding: 0.5rem;
 }
-
 /**Styles the grid/list svg image **/
 .btn-layouts img{
     width:100px;
     height:100px;
 }
-
 /**Styles the wayfinding **/
 .btn-layouts .show{
     background-color: yellow;
