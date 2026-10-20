@@ -7,8 +7,11 @@ async function getData(url){
         console.log(response);
         displayFlags(await response.json());
 
-    } catch (error) {
-        showFlags.innerText = error.message;
+    } 
+    
+    catch (error) {
+        
+        showFlags.innerHTML = error.message; 
     }
 }
 
