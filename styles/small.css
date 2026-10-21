@@ -195,13 +195,16 @@ nav li a.active {
 .list section{
     display: grid;
     grid-template-columns: 100px auto;
+    gap:10px;
     grid-template-areas: 
     "flag name"
     "flag capital"
 }
 
 .list{
-    gap:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .list img{
