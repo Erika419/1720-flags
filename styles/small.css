@@ -195,7 +195,6 @@ nav li a.active {
 .list section{
     display: grid;
     grid-template-columns: 100px auto;
-    gap: 20px;
     grid-template-areas: 
     "flag name"
     "flag capital"
@@ -204,7 +203,8 @@ nav li a.active {
 .list img{
     grid-area: flag;
     width:100%;
-    height: auto;   
+    height: auto; 
+    gap: 20px;  
 }
 
 .list h2{
@@ -225,7 +225,7 @@ nav li a.active {
     text-align: center;
     border-radius: 2rem;
     width: 100px;
-    height: 55px;
+    height: 51px;
     border: 1px solid black;
     margin: 0 auto;
 }
@@ -236,7 +236,6 @@ nav li a.active {
     align-items: center;
     text-align:center;
     border:none;
-    border-radius: 1.5rem 0 0 1.5rem;
     width: 50px;
     height: 50px;
     background-color: rgba(255, 255, 255, 1.0);
@@ -245,6 +244,17 @@ nav li a.active {
         box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
 }
+
+/* First button: rounded on the left */
+.btn-layouts button:first-child {
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+/* Second button: rounded on the right */
+.btn-layouts button:last-child {
+    border-radius: 0 1.5rem 1.5rem 0;
+}
+
 /**Styles the grid/list svg image **/
 .btn-layouts img{
     width:20px;
