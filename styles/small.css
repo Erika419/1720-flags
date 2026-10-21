@@ -200,11 +200,14 @@ nav li a.active {
     "flag capital"
 }
 
+.list{
+    gap:10px;
+}
+
 .list img{
     grid-area: flag;
     width:100%;
-    height: auto; 
-    gap: 20px;  
+    height: auto;   
 }
 
 .list h2{
@@ -225,7 +228,7 @@ nav li a.active {
     text-align: center;
     border-radius: 2rem;
     width: 100px;
-    height: 51px;
+    height: 54px;
     border: 1px solid black;
     margin: 0 auto;
 }
