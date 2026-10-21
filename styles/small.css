@@ -217,17 +217,17 @@ nav li a.active {
     margin:0;
 }
 
-/**Styles the Flag area LIST/GRID Layouts **/
 /**Styles the parent division **/
 .btn-layouts{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    text-align:center;
+    text-align: center;
     border-radius: 2rem;
     width: 110px;
     height: 65px;
     border: 1px solid black;
+    margin: 0 auto;
 }
 /**Styles both buttons **/
 .btn-layouts button{
@@ -371,97 +371,6 @@ nav li a.active {
             box-shadow: 0 0 10px var(--color-mygrey-30);
         }
     }
-}
-
-
-/**card formatting**/
-
-/**controls format of cards on the page **/
-.showPresidents{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 1rem;
-    gap: 1rem;
-    padding: 1rem;
-};
-
-/**controls styling of each card **/
-.showPresidents section{
-    border: 1px solid var(--color-primary);
-    border-radius: 10px;
-    margin: 0;
-    padding: 1rem;
-    width: 100%;
-    min-width: 0;
-}
-
-.showPresidents img {
-    display: block;
-    width: 100%;
-    height: 300px;
-    object-fit: contain;
-    object-position: center top;
-}
-
-/**styling of the active button**/
-.current{
-    background-color: black;
-    color: white;
-}
-
-/**placement of the wayfinding buttons**/
-.partyNav{
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    padding: 0;
-    margin: 1rem;
-}
-
-.partyNav button {
-    display: block;
-    width: 100%;
-    padding: 0.85rem 10px;
-}
-
-
-/**styling of the buttons**/
-button{
-    list-style-type: none;
-    font-size: 0.8rem;
-    font-weight: 400;
-    border-left: solid 1px rgba(245, 242, 242, 0.2);
-    text-decoration: none;
-    padding: 0.85rem 10px;
-    background-color: rgb(231, 228, 228);
-    color: black;
-    border: 1px solid rgba(245, 242, 242, 0.2);
-    width: 100%;
-}
-
-button:hover{
-    background-color: black;
-    color: white;
-}
-
-.Unaffiliated h2{
-    color: pink;
-}
-
-.Democratic h2{
-    color: blue;
-}
-
-.Republican h2{
-    color: red;
-}
-
-.Democratic-Republican h2{
-    color: purple;
-}
-
-.Whig{
-    color: green;
 }
 
 
