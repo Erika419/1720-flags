@@ -46,7 +46,7 @@
     grid-template-columns: 100px 1fr 1fr;
     gap:10px;
     grid-template-areas: 
-    "flag name capital"
+    "flag name languages"
 }
 
 .list img{
@@ -61,7 +61,7 @@
 }
 
 .list p{
-    grid-area: capital;
+    grid-area: languages;
     margin:0;
 }
 

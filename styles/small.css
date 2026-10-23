@@ -219,7 +219,7 @@ nav li a.active {
 }
 
 .list p{
-    grid-area: capital;
+    grid-area: languages;
     margin:0;
 }
 
