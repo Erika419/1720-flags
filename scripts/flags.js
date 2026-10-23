@@ -23,8 +23,8 @@ function displayFlags(countries){
         const card = document.createElement("section");
         card.innerHTML=`
         <h2> ${item.name}</h2>
-        <img> src="${item.flags.svg}" alt="Flag"
-        <p>Languages: ${Object.values(item.languages).join(" , ")}</p>`
+        <img src="${item.flags.svg}" alt="Flag"><
+        <p>Languages: ${Object.values(item.languages).map(language => language.name).join(", ")}</p>`
         showFlags.appendChild(card)
     })
 }
