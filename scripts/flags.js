@@ -18,4 +18,13 @@ getData("https://countries.dev/countries?fields=name,flags,languages");
 //loops through the countries and displays their flags
 function displayFlags(countries){
     console.log(countries);
+    countries.forEach(item =>{
+        console.log(item);
+        const card = document.createElement("section");
+        card.innerHTML=`
+        <h2> ${item.name}</h2>
+        <img> src="${item.flags.svg}" alt="Flag"
+        <p>Languages: ${Object.values(item.languages).join(" , ")}</p>`
+        showFlags.appendChild(card)
+    })
 }
